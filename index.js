@@ -13,7 +13,7 @@ function spin() {
   } else if (num2 > num1) {
     document.querySelector("h1").textContent = "Player2 Won🚩";
   } else {
-    document.querySelector("h1").textContent = "DRAW!";
+    document.querySelector("h1").textContent = "It's A DRAW!";
   }
   //////////////////////////////////////////////////////////
   if (num1 === 1) {
