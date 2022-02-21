@@ -10,8 +10,10 @@ function spin() {
 
   if (num1 > num2) {
     document.querySelector("h1").textContent = "🚩Player1 Won";
+    document.querySelector(".scr1").textContent += "| ";
   } else if (num2 > num1) {
     document.querySelector("h1").textContent = "Player2 Won🚩";
+    document.querySelector(".scr2").textContent += "| ";
   } else {
     document.querySelector("h1").textContent = "It's A DRAW!";
   }
